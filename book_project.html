@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+
+		<!-- CSS Files -->
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/book_project.css" />
+
+		<!-- All Javascript/jQuery File-->
+		<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="js/parallax.js"></script>
+	
+		<title>Harry Potter's Harry Potter</title>
+	
+	</head>
+
+	<body id="background">
+
+        <div id="stage">
+<!--            <p data-depth="0.6" id="one">One</p>-->
+<!--            <p data-depth="10" id="two">Two</p>-->
+<!--            <div id="entire_book"></div>-->
+<!--            <div data-depth="2" id="background_book"></div>-->
+            <div id="background_book"></div>
+            <div id="harry_potter"></div>
+            <div id="foreground"></div>
+			<div id="hover_title"></div>
+			<div id="creeper_right"></div>
+            <div id="owl"></div>
+            <div id="owl_back"></div>
+<!--            <div id="curtains"></div>-->
+
+        </div>
+
+	<script>
+		
+		// all of your javascript commands go here!
+        var scene = $('#stage').get(0);
+        var parallaxInstance = new Parallax(scene, {
+                relativeInput: true,
+                pointerEvents: true,
+                hoverOnly: false,
+
+                // clipRelativeInput: true,
+                // calibrateX: true,
+
+                invertX: true,
+                invertY: true,
+
+                frictionX: 0.1,
+                frictionY: 0.1,
+
+                originX: 0.5,
+                originY: 0.001,
+
+                limitX: 65,
+                limitY: 2.45,
+
+                // limitX: false,
+                // limitY: false,
+
+                scalarX: 3.025,
+                scalarY: 1
+            });
+
+	</script>
+
+	</body>
+
+</html>
