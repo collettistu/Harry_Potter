@@ -21,7 +21,7 @@ p {
 
 #entire_book
 {
-    background-image: url('/images/Harry_Potter_and_the_Sorcerers_Stone.png');
+    background-image: url('../images/Harry_Potter_and_the_Sorcerers_Stone.png');
     scale: 1.3;
     /*background-size: 100%;*/
     /*left: -400%;*/
@@ -33,7 +33,7 @@ p {
 
 #background_book
 {
-    background-image: url('/images/Background_Sky_Croppped.png');
+    background-image: url('../images/Background_Sky_Croppped.png');
     background-repeat: repeat-x;
     scale: 1.3;
     /*background-size: 100%;*/
@@ -46,7 +46,7 @@ p {
 
 #foreground
 {
-    background-image: url('/images/Foreground.png');
+    background-image: url('../images/Foreground.png');
     scale: 1.3;
     /*background-size: 100%;*/
     /*left: -400%;*/
@@ -58,7 +58,7 @@ p {
 
 #harry_potter
 {
-    background-image: url('/images/Harry_Potter_Full.png');
+    background-image: url('../images/Harry_Potter_Full.png');
     scale: 1.3;
     /*background-size: 100%;*/
     /*left: -400%;*/
@@ -71,7 +71,7 @@ p {
 
 #owl
 {
-    background-image: url('/images/Owl_Cropped.png');
+    background-image: url('../images/Owl_Cropped.png');
     background-repeat: no-repeat;
     scale: 1.3;
     /*background-size: 100%;*/
@@ -88,7 +88,7 @@ p {
 
 #owl_back
 {
-    background-image: url('/images/Owl_Flipped_Cropped.png');
+    background-image: url('../images/Owl_Flipped_Cropped.png');
     background-repeat: no-repeat;
     scale: 1.3;
     /*background-size: 100%;*/
@@ -170,7 +170,7 @@ p {
 
 #curtains
 {
-    background-image: url('/images/Curtains.png');
+    background-image: url('../images/Curtains.png');
     scale: 1.3;
     /*background-size: 100%;*/
     /*left: -400%;*/
@@ -182,7 +182,7 @@ p {
 
 #creeper_right
 {
-    background-image: url('/images/creeper_right_cropped.png');
+    background-image: url('../images/creeper_right_cropped.png');
     position: relative;
     scale: 1.3;
     /*transform-origin: 15% 20%;*/
